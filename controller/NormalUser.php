@@ -10,8 +10,14 @@ class NormalUser implements User
 {
     private $username;
     private $isLoggedIn;
+    private $db;
+
     public function __construct() {
         $isLoggedIn = false;
+    }
+
+    private function connect() {
+        $this->db = new PDO('sqlite:/Users/abstruct/Desktop/plswork/database.db');
     }
 
     private function isValidUser($username, $password, $password_confirmation) {
@@ -33,5 +39,16 @@ class NormalUser implements User
     {
         if(isLoggedIn) $this->isLoggedIn = false;
         else die('User not logged in.');
+    }
+
+    public function create($username, $password) {
+        $this->connect();
+
+        $result = $this->db->query(sprintf("SELECT username FROM user WHERE username='%s'", $username));
+        if($result) {
+            return false;
+        }
+
+        $this->db->query(sprintf("INSERT INTO user (username, password) VALUES('%s', '%s');", $username, $password));
     }
 }

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc83259-e069-453e-9cba-5fcf707ad5ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/NormalUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.db" afterPath="$PROJECT_DIR$/database.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/NormalUser.php" afterPath="$PROJECT_DIR$/controller/NormalUser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <marker date="1507328247000" expanded="true" signature="937:955" ph="SELECT * FRO... user" />
-                <marker date="1507328247000" expanded="true" signature="1090:1142" ph="INSERT INTO user... " />
+                <marker date="1507329948000" expanded="true" signature="1086:1104" ph="SELECT * FRO... user" />
+                <marker date="1507329948000" expanded="true" signature="1247:1299" ph="INSERT INTO user... " />
               </folding>
             </state>
           </provider>
@@ -51,12 +49,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NormalUser.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NormalUser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/NormalUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="268">
+              <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <marker date="1507331822000" expanded="true" signature="1145:1189" ph="SELECT usern... user" />
+                <marker date="1507331822000" expanded="true" signature="1145:1190" ph="SELECT usern... user" />
+                <marker date="1507331822000" expanded="true" signature="1299:1355" ph="INSERT INTO user... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +72,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/User.php" />
-        <option value="$PROJECT_DIR$/controller/NormalUser.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/controller/NormalUser.php" />
       </list>
     </option>
   </component>
@@ -169,12 +171,12 @@
       <updated>1506966095834</updated>
       <workItem from="1506966097961" duration="731000" />
       <workItem from="1506978968713" duration="2060000" />
-      <workItem from="1507321204226" duration="3594000" />
+      <workItem from="1507321204226" duration="5678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6385000" />
+    <option name="totallyTimeSpent" value="8469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -217,8 +219,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507328247000" expanded="true" signature="937:955" ph="SELECT * FRO... user" />
-            <marker date="1507328247000" expanded="true" signature="1090:1142" ph="INSERT INTO user... " />
+            <marker date="1507329948000" expanded="true" signature="1086:1104" ph="SELECT * FRO... user" />
+            <marker date="1507329948000" expanded="true" signature="1247:1299" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -228,17 +230,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507328247000" expanded="true" signature="937:955" ph="SELECT * FRO... user" />
-            <marker date="1507328247000" expanded="true" signature="1090:1142" ph="INSERT INTO user... " />
+            <marker date="1507329948000" expanded="true" signature="1086:1104" ph="SELECT * FRO... user" />
+            <marker date="1507329948000" expanded="true" signature="1247:1299" ph="INSERT INTO user... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/NormalUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -252,11 +246,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <marker date="1507328247000" expanded="true" signature="937:955" ph="SELECT * FRO... user" />
-            <marker date="1507328247000" expanded="true" signature="1090:1142" ph="INSERT INTO user... " />
+            <marker date="1507329948000" expanded="true" signature="1086:1104" ph="SELECT * FRO... user" />
+            <marker date="1507329948000" expanded="true" signature="1247:1299" ph="INSERT INTO user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/NormalUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <marker date="1507331822000" expanded="true" signature="1145:1189" ph="SELECT usern... user" />
+            <marker date="1507331822000" expanded="true" signature="1145:1190" ph="SELECT usern... user" />
+            <marker date="1507331822000" expanded="true" signature="1299:1355" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
